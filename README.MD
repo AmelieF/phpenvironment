@@ -40,7 +40,7 @@ Within Docker Desktop you will see your running containers
 1. Create a folder at the root call **apps**
 2. Within the **apps** folder, create a folder for your application (app1)
 3. Within your **application folder**, create a **public** folder
-4. Within the **public** 
+4. Within the **public** folder, create your application entry point.
 
 ## Adding Config Files
 For the project you with to generate a config (.env) file
