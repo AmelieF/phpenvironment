@@ -1,3 +1,9 @@
+# NBCC PHP Development Environment
+This repository is the NBCC Moncton Software Development PHP Development Environment.
+
+## Setup
+To build you development environment, follow the steps below:
+
 1. Install Docker Desktop
     ```
     https://docs.docker.com/desktop/setup/install/windows-install/
@@ -9,15 +15,26 @@
 docker compose up -d --build
 ```
 
-| Service    | URL                                            |
-| ---------- | ---------------------------------------------- |
-| phpMyAdmin | [http://localhost:8081](http://localhost:8081) |
+Within Docker Desktop you will see your running containers
+
+- phpenvironment
+    - shared-php
+    - shared-mysql
+    - shared -phpmyadmin
+
+    ![alt text](./assets/s0.png "Docker")
 
 
-Install:
+4. Check if you **phpmyadmin** is working
 
-👉 PHP Debug (by Felix Becker)
-4. Run the debugger and test breakpoints
+    | Service    | URL                                            |
+    | ---------- | ---------------------------------------------- |
+    | phpMyAdmin | [http://localhost:8081](http://localhost:8081) |
+
+5. For debugging, install the PHP Debug Extension for VSCode
+    👉 PHP Debug (by Felix Becker)
+6. Run the debugger and test breakpoints within the **myphp** project.
+    ![alt text](./assets/s1.png "Debugging")
 
 ## Building Applications
 1. Create a folder at the root call **apps**
