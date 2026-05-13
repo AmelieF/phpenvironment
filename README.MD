@@ -9,11 +9,12 @@ To build you development environment, follow the steps below:
     https://docs.docker.com/desktop/setup/install/windows-install/
     ```
 2. Sign up for account on Docker Hub (optional)
-3. From root of this repo, run:
-
-```
-docker compose up -d --build
-```
+3. For debugging, install the PHP Debug Extension for VSCode
+    👉 PHP Debug (by DEVSENSE)
+4. From root of this repo, run:
+    ```
+    docker compose up -d --build
+    ```
 
 Within Docker Desktop you will see your running containers
 
@@ -31,8 +32,7 @@ Within Docker Desktop you will see your running containers
     | ---------- | ---------------------------------------------- |
     | phpMyAdmin | [http://localhost:8081](http://localhost:8081) |
 
-5. For debugging, install the PHP Debug Extension for VSCode
-    👉 PHP Debug (by Felix Becker)
+
 6. Run the debugger and test breakpoints within the **myphp** project.
     ![alt text](./assets/s1.png "Debugging")
 
